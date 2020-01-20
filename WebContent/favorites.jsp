@@ -27,13 +27,7 @@
 	<table class="box" cellspacing="6" cellpadding="4">
 		<col width="300">
 
-		<%-- <tr>
-			<td><c:if test="${removeFavoriteItemStatus==true}">
-					<h3>
-						<b>Movie removed from Favorites Successfully</b>
-					</h3>
-				</c:if></td>
-		</tr> --%>
+		
 		<tr>
 			<th class="title-name">Title</th>
 			<th class="title-price">Box Office</th>

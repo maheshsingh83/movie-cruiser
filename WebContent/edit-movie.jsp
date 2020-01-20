@@ -85,8 +85,7 @@
 						</c:otherwise>
 					</c:choose><b>Has Teaser</b></td>
 
-				<!-- <td colspan="2"><input type="checkbox" value="free Delivery"
-					name="hasTeaser" checked><b>Has Teaser</b></td> -->
+				
 			<tr>
 				<td colspan="2"><input class="button" type="submit"
 					value="Save" name="submit"></td>
