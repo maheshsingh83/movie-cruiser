@@ -91,7 +91,7 @@ body h2 {
 
 h3 {
     color: #2de336;
-    margin-left: 10.5%; /*edit movie status*/
+    margin-left: 5.5%; /*edit movie status*/
 }
 
 h3 b {
@@ -106,5 +106,9 @@ body h4 {
 }
 
 .status {
-    margin-left: 10.5%; /*Displays paragraph in favorites-empty*/
+    margin-left: 5.5%; /*Displays paragraph in favorites-empty*/
+}
+
+#link {
+    color: #1a1717;
 }

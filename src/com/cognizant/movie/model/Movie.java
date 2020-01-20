@@ -89,7 +89,7 @@ public class Movie {
     public String toString() {
         DecimalFormat decimal=new DecimalFormat();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");
-        return String.format("%-10s%-20s$%-15s%-10s%-15s%-22s%-20s\n", movieId, title,decimal.format(boxOffice),
+        return String.format("%-10s%-20s%-15s%-10s%-18s%-20s%-10s\n", movieId, title,decimal.format(boxOffice),
                 active == true ? "Yes" : "No", sdf.format(dateOfLaunch), genre,
                 hasTeaser == true ? "Yes" : "No");
     }

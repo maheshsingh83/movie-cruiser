@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Favorite {
     private List<Movie> favoriteList;
-    private double total;
+    private int total;
 
     public Favorite() {
         // TODO Auto-generated constructor stub
@@ -18,11 +18,11 @@ public class Favorite {
         this.favoriteList = favoriteList;
     }
 
-    public double getTotal() {
+    public int getTotal() {
         return total;
     }
 
-    public void setTotal(double total) {
+    public void setTotal(int total) {
         this.total = total;
     }
 
@@ -30,5 +30,7 @@ public class Favorite {
     public String toString() {
         return "Favorite [favoriteList=" + favoriteList + ", total=" + total + "]";
     }
+
+    
 
 }
